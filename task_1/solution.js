@@ -19,7 +19,7 @@ message = productName;
 message += " ";
 message += "за";
 message += " ";
-message += "500";
+message += "productPrice";
 message += " ";
 message += "теперь в корзине!";
 console.log (message)
