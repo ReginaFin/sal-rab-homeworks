@@ -22,8 +22,7 @@ message += " ";
 message += productPrice;
 message += " ";
 message += "теперь в корзине!";
-console.log (message)
-
+console.log(message)
     // Конец решения задания №1.1.
 
     return message;
@@ -40,7 +39,7 @@ function addInCartCountChange(value) {
 
     let newValue;
     newValue = oldValue;
-    newValue += 1;
+    newValue = newValue + 1;
     // Конец решения задания №1.2.
 
     return newValue;
