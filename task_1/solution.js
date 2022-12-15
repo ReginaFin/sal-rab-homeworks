@@ -59,8 +59,8 @@ function addInCartSumChange(sum, delta) {
     newSum = oldSum + difference;
     let newSumText;
     newSumText = newSum + ' ₽';
-    newSumText = ${newSum} ₽`;
-    // Конец решения задания №1.3.
+    newSumText = `${newSum} ₽`;
+        // Конец решения задания №1.3.
 
     return newSumText;
 }
