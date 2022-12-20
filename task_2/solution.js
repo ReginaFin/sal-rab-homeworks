@@ -84,7 +84,7 @@ function calcInvoice({sum, discountMinSum, discountPart, shippingFreeMinSum, shi
 
     
     totalSum += shippingSum;
-    let freeShipping = shippingSum = 0;
+    let freeShipping = !shippingSum;
 
     // Конец решения задачи №2.3.
 
